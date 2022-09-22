@@ -1,0 +1,85 @@
+header{
+    background-color: #313131 ;
+    color: #ffffff;
+    background-image: url(Coding.jpg);
+    background-repeat: no-repeat;
+    line-height: 183px;
+    padding-left: 280px;
+}
+
+main{
+    margin-left: 120px;
+}
+
+body{
+    background-color: #696968;
+    color: #696868;
+}
+nav{
+    float: left;
+    width: 100px;
+    
+}
+nav ul{
+    flex-direction: column;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.2em;
+    padding-left: 40px;
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}
+
+#wrapper{
+    background-image: linear-gradient(to right, #ffffff, aqua);
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(odd){
+    background-color: #ffffff;
+}
+
+tr:nth-of-type(even){
+    background-color: #6b6b6b;
+    color: #ffffff;
+}
+
+td{
+    padding: .5em;
+    border: 3px solid black;
+    text-align: center;
+}
+
+th{
+    border: 3px solid black;
+}
+
+label{
+    float: left;
+}
+
+input, textarea{ 
+    display: block;
+    margin-bottom: 20px;
+}
+
+nav a:hover{
+    color: cyan;
+    background-color: #313131;
+    transition: background-color 1s linear;
+}
+
